@@ -19,3 +19,8 @@ class triangle:
 ![](https://github.com/T-DEMD/Graphics_chapter_13/blob/447c5d3ed95d4ff6286e3b96979e17663266da77/tr.jpg)
 ___
 
+Mark Point:
+
+![](https://github.com/T-DEMD/Graphics_chapter_13/blob/New_Branch/Mark.jpg)
+___
+
