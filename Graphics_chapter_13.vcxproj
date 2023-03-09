@@ -78,7 +78,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>F:\Inf\fltk\fltk-1.3.8\build\lib\Debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\mkhit\OneDrive\Документы\fltk-1.3.5\build\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -117,7 +117,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>F:\Inf\fltk\fltk-1.3.8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\mkhit\OneDrive\Документы\fltk-1.3.5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
     </ClCompile>
     <Link>
@@ -143,18 +143,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\Graph.cpp" />
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\GUI.cpp" />
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\Simple_window.cpp" />
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\Window.cpp" />
     <ClCompile Include="exercises_13.cpp" />
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Graph.cpp" />
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\GUI.cpp" />
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Simple_window.cpp" />
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Graph.h" />
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\GUI.h" />
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Point.h" />
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Simple_window.h" />
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Window.h" />
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Graph.h" />
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\GUI.h" />
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Point.h" />
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Simple_window.h" />
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
