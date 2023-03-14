@@ -24,3 +24,12 @@ Mark Point:
 ![](https://github.com/T-DEMD/Graphics_chapter_13/blob/New_Branch/Mark.jpg)
 ___
 
+class Right_triangle:
+
+![](https://github.com/T-DEMD/Graphics_chapter_13/blob/New_Branch/oct.jpg)
+
+___
+
+Test_rectangle:
+
+![](https://github.com/T-DEMD/Graphics_chapter_13/blob/New_Branch/rec.jpg)
