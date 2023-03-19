@@ -18,33 +18,33 @@
     <ClCompile Include="exercises_13.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Graph.cpp">
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\Graph.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\GUI.cpp">
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\GUI.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Simple_window.cpp">
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\Simple_window.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Window.cpp">
+    <ClCompile Include="..\..\..\Документы\fltk_gui\GUI\Window.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Graph.h">
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Graph.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\GUI.h">
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\GUI.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Point.h">
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Point.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Simple_window.h">
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Simple_window.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="F:\Inf\Новая папка\Stroustrup\code\code\GUI\Window.h">
+    <ClInclude Include="..\..\..\Документы\fltk_gui\GUI\Window.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
