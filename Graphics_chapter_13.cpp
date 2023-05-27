@@ -8,6 +8,8 @@
 
 using namespace Graph_lib;
 
+//--------------------------------------------------------------------
+
 struct Arch : Shape
 {
 	Arch() {};
@@ -39,6 +41,8 @@ void Arch::draw_lines()const
 	if (color().visibility())
 		fl_arc(point(0).x, point(0).y, r + r, r + r, 180, 360);
 }
+
+//--------------------------------------------------------------------
 
 struct Box : Arch
 {
@@ -83,6 +87,8 @@ void Box::draw_lines()const
 		fl_arc(point(0).x + (width - corner * 3), point(0).y + (height - corner * 2), corner + corner, corner + corner, 270, 360);
 	}
 }
+
+//--------------------------------------------------------------------
 
 struct Designations_rect 
 {
@@ -191,6 +197,8 @@ Point Designations_rect::nw(Graph_lib::Rectangle& rec)
 	return p;
 }
 
+//--------------------------------------------------------------------
+
 struct Designations_ellipse
 {
 	friend class Ellipse;
@@ -232,6 +240,8 @@ Point Designations_ellipse::c(Graph_lib::Ellipse& ell)
 	Point p{ x,y };
 	return p;
 }
+
+//--------------------------------------------------------------------
 
 struct Box_t : Shape
 {
@@ -370,7 +380,7 @@ void Box_t::add_box(Point p)
 	add(Point{ xx,yy });
 }
 
-
+//--------------------------------------------------------------------
 
 struct Right_triangle : Shape
 {
@@ -555,6 +565,8 @@ void Right_triangle::south_west()
 //
 //}
 
+//--------------------------------------------------------------------
+
 struct Test_rectangle : Rectangle
 {
 	using Rectangle::Rectangle;
@@ -573,6 +585,8 @@ void Test_rectangle::draw_lines() const
 		fl_line(point(number_of_points() - 1).x + width(), point(number_of_points() - 1).y, (point(number_of_points() - 1).x + width() / 2), (point(number_of_points() - 1).y - height() / 2));
 	}
 }
+
+//--------------------------------------------------------------------
 
 int main()
 {
